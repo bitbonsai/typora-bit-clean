@@ -46,7 +46,7 @@
     --control-text-color: var(--text-secondary);
     --control-text-hover-color: var(--accent-blue);
     --search-select-bg-color: rgba(30, 102, 245, 0.15);
-    --rawblock-edit-panel-bd: var(--border-medium);
+    --rawblock-edit-panel-bd: rgba(76, 79, 105, 0.04);
     --monospace: "JetBrains Mono", "JetBrains Mono NL", monospace;
     --select-text-bg-color: rgba(30, 102, 245, 0.15);
 }
@@ -274,13 +274,13 @@ body {
 .cm-s-inner .CodeMirror-activeline-background {
     background: transparent !important;
     border-radius: 4px;
-    padding: 8px;
+    padding: 0;
 }
 
 .CodeMirror-focused .CodeMirror-activeline-background,
 .cm-s-typora-default .CodeMirror-focused .CodeMirror-activeline-background,
 .cm-s-inner .CodeMirror-focused .CodeMirror-activeline-background {
-    background: rgba(255, 255, 255, 0.5) !important;
+    background: rgba(30, 102, 245, 0.03) !important;
 }
 
 /* Inline code */

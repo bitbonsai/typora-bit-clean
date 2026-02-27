@@ -1,8 +1,9 @@
 <div align="center">
   <br>
-  <img src="https://cdn.jim-nielsen.com/macos/512/typora-2022-02-03.png?rf=1024" width="128" height="128" alt="Typora icon">
+  <img src="bit-clean/bit-clean-logo.png" width="128" height="128" alt="Bit Clean logo">
   <h1>Bit Clean</h1>
   <p>Clean-inspired Typora themes with Catppuccin palettes, soft glass layers, and a calm writing-first layout.</p>
+  <p>Available in <b>Dark</b> &amp; <b>Light</b> modes</p>
   <p>
     <a href="#install">Install</a>
     ·
@@ -11,6 +12,11 @@
     <a href="#author">Author</a>
   </p>
 </div>
+
+
+<p align="center">
+  <img src="bit-clean/preview/bit-clean-thumbnail-readme.png" alt="Bit Clean dark and light split preview">
+</p>
 
 ## Features
 
@@ -29,10 +35,11 @@
 
 ## Preview Assets
 
-- Gallery thumbnail: `bit-clean/preview/bit-clean-thumbnail.png` (500x400)
-- Light screenshots: `bit-clean/preview/bit-clean-light-1.png`, `bit-clean/preview/bit-clean-light-2.png`
-- Dark screenshots: `bit-clean/preview/bit-clean-dark-1.png`, `bit-clean/preview/bit-clean-dark-2.png`
-- Screenshot test page: `bit-clean/markdown-demo.md`
+Gallery submission asset (500x400): `bit-clean/preview/bit-clean-thumbnail.png`.
+
+Full-size preview images are on `bit-clean/README.md`.
+
+Screenshot test page: `bit-clean/markdown-demo.md`.
 
 ## Project Files
 

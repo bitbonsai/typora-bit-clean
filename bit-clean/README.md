@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img src="https://cdn.jim-nielsen.com/macos/512/typora-2022-02-03.png?rf=1024" width="96" height="96" alt="Typora icon">
+  <img src="bit-clean-logo.png" width="96" height="96" alt="Bit Clean logo">
   <h1>Bit Clean</h1>
   <p>Theme package directory for Typora.</p>
 </div>
@@ -9,6 +9,15 @@ Bit Clean includes two variants:
 
 - `bit-clean-light.css` (Catppuccin Latte)
 - `bit-clean-dark.css` (Catppuccin Mocha)
+
+## Full-size Preview Images
+
+![Bit Clean Light and Dark Split](preview/bit-clean-light-dark-split.png)
+
+![Bit Clean Light 1](preview/bit-clean-light-1.png)
+![Bit Clean Light 2](preview/bit-clean-light-2.png)
+![Bit Clean Dark 1](preview/bit-clean-dark-1.png)
+![Bit Clean Dark 2](preview/bit-clean-dark-2.png)
 
 ## Screenshot Workflow
 

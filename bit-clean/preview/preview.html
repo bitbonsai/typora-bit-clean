@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bit Clean Preview</title>
+    <link id="theme-css" rel="stylesheet" href="../bit-clean-light.css">
+    <style>
+      body {
+        margin: 0;
+      }
+
+      #write {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="write"></main>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      (async () => {
+        const params = new URLSearchParams(window.location.search);
+        const theme = params.get("theme") === "dark" ? "dark" : "light";
+        const cssFile = theme === "dark" ? "../bit-clean-dark.css" : "../bit-clean-light.css";
+        document.getElementById("theme-css").setAttribute("href", cssFile);
+        document.title = `Bit Clean ${theme === "dark" ? "Dark" : "Light"} Preview`;
+
+        const response = await fetch("../markdown-demo.md", { cache: "no-store" });
+        const markdown = await response.text();
+        document.getElementById("write").innerHTML = marked.parse(markdown);
+      })();
+    </script>
+  </body>
+</html>
