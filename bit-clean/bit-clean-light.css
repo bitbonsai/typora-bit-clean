@@ -705,6 +705,19 @@ footer {
     border-radius: 4px;
 }
 
+/* Frontmatter / YAML block */
+pre.md-meta-block {
+    background: #e6e9ef;
+    color: var(--text-secondary);
+    border: 1px solid rgba(76, 79, 105, 0.08);
+    border-radius: 6px;
+    padding: 1.5rem 2rem;
+    margin: 0 0 2rem 0;
+    font-family: var(--monospace);
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
 /* Meta info */
 .md-image > .md-meta {
     background: var(--bg-tertiary);
